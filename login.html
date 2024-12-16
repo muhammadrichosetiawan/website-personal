@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDSHOP - Masukkan Akun Anda</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #246981;
+            color: white;
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 400px;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: #9cc2ff;
+        }
+        .form-control {
+            background-color: #1f3b4d;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        .form-control::placeholder {
+            color: #8fa6b2;
+        }
+        .btn-primary {
+            background-color: transparent;
+            color: white;
+            border: 1px solid #8fa6b2;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+            width: 100%;
+        }
+        .btn-primary:hover {
+            background-color: #8fa6b2;
+            color: #246981;
+        }
+        .social-icons img {
+            width: 50px;
+            margin: 10px;
+        }
+        .form-check-label {
+            color: #8fa6b2;
+            font-size: 14px;
+        }
+        .sign-up-link {
+            color: #ffffff;
+            font-size: 14px;
+        }
+        .sign-up-link a {
+            color: #4dd0e1;
+            text-decoration: none;
+        }
+        .sign-up-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">CDSHOP</div>
+        <h2>Masukkan Akun Anda</h2>
+        <form action="dm.html">
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Kata Sandi">
+            </div>
+            <div class="form-check text-left my-3">
+                <input type="checkbox" class="form-check-input" id="rememberMe">
+                <label class="form-check-label" for="rememberMe">Ingatkan saya</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+        
+        <div class="mt-4">
+            <p>Atau lanjutkan dengan</p>
+            <div class="social-icons d-flex justify-content-center">
+                <a href="https://accounts.google.com/login"><img src="g.png" alt="Google"></a>
+                <a href="https://www.facebook.com/login"><img src="f.png" alt="Facebook"></a>
+                <a href="https://github.com/login"><img src="git.png" alt="Github"></a>
+            </div>
+        </div>
+        
+        <div class="sign-up-link mt-4">
+            Belum punya akun? <a href="regis.html">Sign up</a> <!-- Ubah link di sini -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
